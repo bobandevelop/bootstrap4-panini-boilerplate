@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap4-panini-boilerplate",
+  "version": "1.0.0",
+  "description": "Empty boilerplate for Bootstrap 4 powered by Panini, Sass and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^4.0.0-beta.3",
+    "browser-sync": "^2.23.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "panini": "^1.5.1",
+    "postcss-uncss": "^0.16.1",
+    "uncss": "^0.16.1",
+    "webpack": "^3.10.0"
+  }
+}
