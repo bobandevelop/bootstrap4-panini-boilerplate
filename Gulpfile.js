@@ -16,13 +16,17 @@ var sassOptions = {
 	includePaths: ['./node_modules/bootstrap/scss/']
 }
 
+var stylePaths = [
+	'./src/styles/app.scss'
+]
+
 gulp.task('styles', function() {
 	var plugins = [
         uncss({
             html: ['./dist/index.html']
         })
     ]
-	return gulp.src(['./src/styles/app.scss'])
+	return gulp.src(stylePaths)
 		.pipe(concat('styles.scss'))
 		.pipe(sourcemaps.init())
 		.pipe(sass(sassOptions).on('error', sass.logError))
